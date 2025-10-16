@@ -1,9 +1,7 @@
-"use strict";
-
 const faqItem = document.getElementsByClassName('faq-body')[0];
 
-(function () {
-    faqItem.addEventListener('click', function (event) {
+document.addEventListener('DOMContentLoaded', function() {
+	faqItem.addEventListener('click', function (event) {
         const faqHeader = event.target.closest('.faq-item-header');
 
         if (!faqHeader) return;
@@ -13,4 +11,4 @@ const faqItem = document.getElementsByClassName('faq-body')[0];
             ? faqHeader.querySelector('img').src = 'assets/images/icon-minus.svg'
             : faqHeader.querySelector('img').src = 'assets/images/icon-plus.svg';
     });
-})();
+});
