@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]('')
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/waifal/faq-accordion-frontend-mentor)
+- Live Site URL: [Live Demo](https://faq-accordion-frontend-mentor-nine.vercel.app/)
 
 ## My process
 
