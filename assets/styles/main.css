@@ -79,7 +79,7 @@ html {
     transition: color 0.095s linear;
 }
 
-.faq-item-header>h2:hover {
+.faq-item-header:hover h2 {
     color: rgb(192, 0, 192);
 }
 
