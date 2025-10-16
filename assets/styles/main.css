@@ -52,6 +52,7 @@ html {
 }
 
 .faq-header>h1 {
+    order: 1;
     font-size: 3.25em;
     color: var(--purple-950);
 }
